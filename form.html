@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+      <!-- career objective -->
+      <div class="career">
+        <h1>Career Objective</h1>
+        <label for="career">Career
+        <input type="text" name="career" id="career" placeholder="career objective">
+        </label>
+      </div>
+      <!-- personal information -->
+      <div class="details">
+        <h1>Personal Details</h1>
+         <label for="name">Name
+        <input type="text" name="name" id="name" placeholder="Enter name"><br>
+         <label for="mobile"> Phone No
+        <input type="number" name="mobile" id="mobile" placeholder="Enter Phoneno"><br>
+        <label for="address">Address
+        <input type="text" name="address" id="address" placeholder="Enter address"><br>
+         <label for="email">Email
+        <input type="email" name="email" id="email" placeholder="Enter emailid"><br>
+         <label for="dob"> Date Of Birth
+        <input type="date" name="dob" id="dob" placeholder="Enter Date of Birth"><br>
+      </div>
+      <!-- Education details -->
+      <div class="details">
+        <h1>Graduation Details</h1>
+        <label for="ginstitute">Institute</label>
+        <select id="ginstitute"><br>
+        <option >select institute</option>
+          <option >MITS</option>
+          <option >Viswam</option>
+          <option >GVIC</option>
+          <option >Adithya</option>
+         </select>
+        <!-- branch -->
+        <label for="gbranch">Branch</label>
+        <select id="gbranch"><br>
+          <option >select branch</option>
+          <option >CSE</option>
+          <option >ECE</option>
+          <option >MECH</option>
+          <option >CIVIL</option>
+          <option >EEE</option>
+        </select>
+        <!-- year -->
+        <label for="pyop">YearofPassing</label>
+        <input type="year" name="yop" id="pyop" placeholder="Enter year"><br>
+        <!-- percentage -->
+        <label for="gper">Percentage</label>
+        <input type="number" name="per" id="gper" placeholder="Enter Percentage"><br>
+      </div>
+      <div class="details">
+        <h1>Intermediate Details</h1>
+        <label for="iinstitute">Institute</label>
+        <select id="iinstitute"><br>
+        <option >select institute</option>
+          <option >Narayana</option>
+          <option >Chaitanya</option>
+          <option >L.R.G.NAIDU Jr</option>
+          <option >Master minds</option>
+         </select>
+        <!-- branch -->
+        <label for="ibranch">Branch</label>
+        <select id="ibranch"><br>
+          <option >select branch</option>
+          <option >Bipc</option>
+          <option >Mpc</option>
+          <option >Mec</option>
+          <option >cec</option>
+        </select>
+        <!-- year -->
+        <label for="iyop">YearofPassing</label>
+        <input type="year" name="yop" id="iyop" placeholder="Enter year"><br>
+        <!-- percentage -->
+          <label for="iper">Percentage</label>
+        <input type="number" name="per" id="iper" placeholder="Enter Percentage"><br>
+
+      </div>
+      <div class="details">
+        <h1>SSC Details</h1>
+        <label for="sinstitute">Institute</label>
+        <select id="sinstitute"><br>
+        <option >select institute</option>
+          <option >Narayana</option>
+          <option >Chaitanya</option>
+          <option >L.R.G.Vidyalayam</option>
+          <option >Master minds</option>
+         </select>
+         <!-- type -->
+         <label for="sboard">Branch</label>
+         <select id="sboard"><br>
+           <option >select branch</option>
+           <option >SSC</option>
+           <option >CBSE</option>
+           <option >ICSC</option>
+         </select>
+        <!-- year -->
+        <label for="syop">YearofPassing</label>
+        <input type="year" name="yop" id="syop" placeholder="Enter year"><br>
+        <!-- percentage -->
+        <label for="sper">Percentage</label>
+        <input type="number" name="per" id="sper" placeholder="Enter Percentage"><br>
+
+      </div>
+      <!-- skills -->
+      <div class="skills">
+        <h1>Skills</h1>
+        <label for="skills">Skills
+        <input type="text" name="skills" id="skills" placeholder="skills"><br>
+        </label>
+      </div>
+     </div>
+
+      <button type="button" name="button" id="bt" onclick="submitData()">Submit</button>
+      <button type="button" name="button" id="bt1" onclick="cancel()">Cancel</button>
+  </body>
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
+</html>

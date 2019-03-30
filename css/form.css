@@ -1,0 +1,50 @@
+body{
+  background:#2EF5E1;
+}
+.parent{
+  width:100%;
+  border:2px solid #1E3634;
+  display:flex;
+  flex-wrap:wrap;
+}
+.career{
+  width:90%;
+  background:#74FE7A;
+  text-align:center;
+  border:2px solid #5A6967;
+  margin:2%;
+  padding:2%;
+}
+.details{
+  background:#FED474;
+  width:45%;
+  padding:1%;
+  margin:1%;
+  border:2px solid #1F2782;
+  text-align:center;
+}
+.skills{
+  background:#E6F645;
+  text-align:center;
+  width:90%;
+  margin:2%;
+  padding:2%;
+  border:2px solid #444724;
+}
+#bt{
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
+}
+#bt1{
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
+}
+input,select{
+  width:90%;
+  margin:2%;
+}
+h1{
+  color:#F01B1B;
+}

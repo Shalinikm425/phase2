@@ -1,0 +1,33 @@
+body{
+  background:#19DAFA;
+}
+header{
+  text-align:center;
+  font-size:20px;
+  background:#89F52E;
+  color:#FA3119;
+}
+img{
+  float:right;
+  width:10%;
+  height:10%;
+}
+.child{
+width:20%;
+padding:1%;
+margin:1%;
+text-align:center;
+border:3px solid gray;
+display:block;
+background-color:skyblue;
+justify-content:space-around;
+}
+/* .link{ */
+  /* text-decoration: none; */
+   /* background-color:red;  */
+  /* color:; */
+/* } */
+.child img{
+  width:150px;
+  height:150px;
+}
